@@ -1,17 +1,15 @@
 <?php
 
-namespace Spatie\ArtisanDd\Test;
+namespace Kigamba\ArtisanDd\Test;
 
 use Illuminate\Support\Facades\Artisan;
 use Orchestra\Testbench\TestCase as Orchestra;
-
 abstract class TestCase extends Orchestra
 {
     public function setUp()
     {
         parent::setUp();
     }
-
     /**
      * @param \Illuminate\Foundation\Application $app
      *
@@ -19,22 +17,17 @@ abstract class TestCase extends Orchestra
      */
     protected function getPackageProviders($app)
     {
-        return [
-            ArtisanDdServiceProvider::class,
-        ];
+        return [ArtisanDdServiceProvider::class];
     }
-
     /**
      * @param string|array $searchStrings
      */
     protected function seeInConsoleOutput($searchStrings)
     {
-        if (! is_array($searchStrings)) {
+        if (!is_array($searchStrings)) {
             $searchStrings = [$searchStrings];
         }
-
         $output = Artisan::output();
-
         foreach ($searchStrings as $searchString) {
             $this->assertContains((string) $searchString, $output);
         }

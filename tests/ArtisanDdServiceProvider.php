@@ -1,10 +1,9 @@
 <?php
 
-namespace Spatie\ArtisanDd\Test;
+namespace Kigamba\ArtisanDd\Test;
 
-use Spatie\ArtisanDd\DdCommand;
+use Kigamba\ArtisanDd\DdCommand;
 use Illuminate\Support\ServiceProvider;
-
 class ArtisanDdServiceProvider extends ServiceProvider
 {
     /**
@@ -13,7 +12,6 @@ class ArtisanDdServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('command.dd', DdCommand::class);
-
         $this->commands(['command.dd']);
     }
 }
