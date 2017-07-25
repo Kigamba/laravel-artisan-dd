@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\ArtisanDd;
+namespace Kigamba\ArtisanDd;
 
 use Illuminate\Console\Command;
 use Spatie\TinkerTools\ShortClassNames;

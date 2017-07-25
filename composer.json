@@ -1,14 +1,12 @@
 {
-    "name": "spatie/laravel-artisan-dd",
+    "name": "kigamba/laravel-artisan-dd",
     "description": "Run dd from your commandline",
     "keywords": [
-        "spatie",
+        "kigamba",
         "laravel-artisan-dd",
         "artisan",
-        "debug",
-        "develop"
     ],
-    "homepage": "https://github.com/spatie/laravel-artisan-dd",
+    "homepage": "https://github.com/Kigamba/laravel-artisan-dd",
     "license": "MIT",
     "authors": [
         {
@@ -16,13 +14,19 @@
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
             "role": "Developer"
+        },
+        {
+            "name": "Ephraim Kigamba",
+            "email": "kigamba@uzapos.com",
+            "homepage": "https://uzapos.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": ">=5.0",
         "illuminate/console": "~5.3|~5.4",
         "illuminate/support": "~5.3|~5.4",
-        "spatie/laravel-tinker-tools": "^1.0.0"
+        "kigamba/laravel-tinker-tools": "dev-master"
     },
     "require-dev": {
         "orchestra/testbench": "~3.3|~3.4",
@@ -30,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\ArtisanDd\\": "src"
+            "Kigamba\\ArtisanDd\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\ArtisanDd\\Test\\": "tests"
+            "Kigamba\\ArtisanDd\\Test\\": "tests"
         }
     },
     "scripts": {
