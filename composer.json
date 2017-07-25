@@ -1,6 +1,6 @@
 {
     "name": "kigamba/laravel-artisan-dd",
-    "description": "Run dd from your commandline",
+    "description": "Run dd from your commandline > Supports PHP 5",
     "keywords": [
         "kigamba",
         "laravel-artisan-dd",
