@@ -1,5 +1,10 @@
 # Quickly dd anything from the commandline
 
+
+This package is a fork from the original spatie/laravle-artisan-dd package.
+
+This package supports PHP 5 while the original package supports PHP 7
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-artisan-dd.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-artisan-dd)
 [![Build Status](https://img.shields.io/travis/spatie/laravel-artisan-dd/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-artisan-dd)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/8358d984-f9e9-4de2-a69e-b6bd5369694b.svg?style=flat-square)](https://insight.sensiolabs.com/projects/8358d984-f9e9-4de2-a69e-b6bd5369694b)
