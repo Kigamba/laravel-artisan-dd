@@ -34,17 +34,17 @@ We publish all received postcards [on our company website](https://spatie.be/en/
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-artisan-dd
+composer require "kigamba/laravel-artisan-dd dev-master"
 ```
 
-You must register the `Spatie\ArtisanDd\DdCommand` in the console kernel.
+You must register the `Kigamba\ArtisanDd\DdCommand` in the console kernel.
 
 ```php
 // app/Console/Kernel.php
 
 protected $commands = [
     ...
-    \Spatie\ArtisanDd\DdCommand::class,
+    \Kigamba\ArtisanDd\DdCommand::class,
 ];
 ```
 
@@ -65,7 +65,7 @@ php artisan dd "bcrypt('secret')" "bcrypt('another-secret')";
 
 ## Support for short class names
 
-Under the hood registers short class names using our [laravel-tinker-tools](https://github.com/spatie/laravel-tinker-tools) package. So instead of 
+Under the hood registers short class names using our [laravel-tinker-tools](https://github.com/kigamba/laravel-tinker-tools) package. So instead of 
 
 ```php
 php artisan dd "\App\Models\NewsItem::first()"; 
