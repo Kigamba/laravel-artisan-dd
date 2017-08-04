@@ -26,7 +26,7 @@
         "php": ">=5.0",
         "illuminate/console": "~5.3|~5.4",
         "illuminate/support": "~5.3|~5.4",
-        "kigamba/laravel-tinker-tools": "dev-master"
+        "kigamba/laravel-tinker-tools": "^1.1"
     },
     "require-dev": {
         "orchestra/testbench": "~3.3|~3.4",
