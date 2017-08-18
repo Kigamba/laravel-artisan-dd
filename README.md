@@ -34,7 +34,7 @@ We publish all received postcards [on our company website](https://spatie.be/en/
 You can install the package via composer:
 
 ```bash
-composer require "kigamba/laravel-artisan-dd dev-master"
+composer require kigamba/laravel-artisan-dd
 ```
 
 You must register the `Kigamba\ArtisanDd\DdCommand` in the console kernel.
